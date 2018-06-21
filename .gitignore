@@ -1,0 +1,6 @@
+.vscode
+_output*
+__pycache__
+.idea
+*.pyc
+.python-version

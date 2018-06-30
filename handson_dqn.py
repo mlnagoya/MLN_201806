@@ -135,7 +135,7 @@ def main():
                         help='ε-greedy法 の開始ε値')
     parser.add_argument('--end-epsilon', type=float, default=0.1,
                         help='ε-greedy法 の終了ε値')
-    parser.add_argument('--replay-buffer', type=float, default=10 ** 6,
+    parser.add_argument('--replay-buffer', type=int, default=10 ** 6,
                         help='Experience Replay のバッファサイズ')
     parser.add_argument('--replay-start-size', type=int, default=500,
                         help='replay-start-size')
